@@ -25,3 +25,8 @@ $ docker-compose up -d
 ```
 
 4. Done!
+
+5. 更新node程式或是nginx 設定需要重新build image
+```
+$ docker-compose up -d --build
+```
